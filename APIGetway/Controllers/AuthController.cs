@@ -37,7 +37,15 @@ namespace HRMS.APIGetway.Controllers
 
     public class User
     {
+        /// <summary>
+        /// Use this columns to genrate the bearer token
+        /// </summary>
+        /// <example>essam</example>
         public string userName { get; set; } = string.Empty;
+        /// <summary>
+        /// Use this columns to genrate the bearer token
+        /// </summary>
+        /// <example>essam</example>
         public string password { get; set; } = string.Empty;
     }
 }
